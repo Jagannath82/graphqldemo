@@ -1,0 +1,11 @@
+type Query {
+    profileById(id: Int): Profile
+}
+
+type Profile{
+    id: ID
+    firstName: String
+    lastName: String
+    displayName: String
+    phoneNumber: String
+}
